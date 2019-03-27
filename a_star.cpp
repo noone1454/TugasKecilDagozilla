@@ -33,13 +33,17 @@ int main(){
 			}
 		}
 	}else{
-		while (file >> grid[i][j].val){
-			if (grid[i][j].val=='1'){
-				start.x=i;
-				start.y=j;
-			}else if (grid[i][j].val=='2'){
-				end.x=i;
-				end.y=j;
+		file >> m >> n;
+		for (i=0;i<m;i++){
+			for (j=0;j<n;j++){
+				file >> grid[i][j].val;
+				if (grid[i][j].val=='1'){
+					start.x=i;
+					start.y=j;
+				}else if (grid[i][j].val=='2'){
+					end.x=i;
+					end.y=j;
+				}
 			}
 		}
 	}
