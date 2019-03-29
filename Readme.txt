@@ -4,7 +4,7 @@ Maze Solver As A Simulation of Path Planning on Mobile Autonomous Robot
 Anggota Kelompok :
 1. Dimas Wahyu Langkawi (16518353)
 2. Aufa Fadhlurohman    (16518177)
-3. Romansyah            (16718
+3. Romansyah            (16718338)
 
 Program ini dirancang menggunakan algoritma dasar A*
 
